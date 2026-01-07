@@ -6,9 +6,11 @@ body{
     border: 1px solid transparent;
     margin: 0px;
     padding: 0px;
+    overflow-x: hidden;
 }
 section {
-    width: 425px;
+    min-width: 320px;
+    max-width: 425px;
     min-height: 600px;
     margin: 0 auto;
     margin-top: 30px;
